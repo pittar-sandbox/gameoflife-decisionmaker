@@ -1,4 +1,4 @@
-# decisionmaker project
+# Game of Life - Decisions
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
@@ -9,7 +9,7 @@ If you want to learn more about Quarkus, please visit its website: https://quark
 ```shell script
 mvn io.quarkus:quarkus-maven-plugin:1.10.5.Final:create \
     -DprojectGroupId=ca.pitt.demo.gameoflife \
-    -DprojectArtifactId=decisionmaker \
+    -DprojectArtifactId=gameoflife-decisions \
     -Dextensions="smallrye-reactive-messaging-kafka"
 cd decisionmaker
 ```
